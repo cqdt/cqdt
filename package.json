@@ -5,7 +5,8 @@
   "author": "cqdt-vnpt-soft",
   "main": "index.js",
   "scripts": {
-    "cqdt": "node dist/index.js"
+    "cqdt": "node dist/index.js",
+    "poc": "forever start dist/index.js poc 3000"
   },
   "dependencies": {
     "bluebird": "^3.5.0",
