@@ -1,0 +1,29 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "cqdt",
+  "author": "cqdt-vnpt-soft",
+  "main": "index.js",
+  "scripts": {
+    "cqdt": "node dist/index.js"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "body-parser": "^1.14.2",
+    "cors": "^2.7.1",
+    "eslint-plugin-react": "^7.0.1",
+    "express": "^4.14.0",
+    "express-graphql": "^0.5.4",
+    "graphql": "^0.6.2",
+    "helmet": "2.1.1",
+    "method-override": "^2.3.5",
+    "mongoose": "^4.10.1",
+    "morgan": "1.7.0",
+    "mssql": "^4.0.4",
+    "multer": "^1.3.0",
+    "mysql": "^2.13.0",
+    "socket.io": "^1.7.4",
+    "xlsx": "^0.8.0"
+  },
+  "license": "MIT"
+}
