@@ -48,6 +48,7 @@ var schema = new _graphql.GraphQLSchema({
       users: _user.users,
       login: _user.login,
       logins: _user.logins,
+      phancap: _phancap2.default,
       userById: _user.userById,
       online: online
     }

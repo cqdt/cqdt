@@ -13,17 +13,16 @@
         <script src="js/chosen.jquery.js"></script>
         <script type="text/javascript" src="js/lodash.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
-        <script src="js/chat-egov.js"></script>
+        <script src="js/chat-poc.js"></script>
     <style>
             .hidden{
                 display: none;
             }
         </style>
-    <a href="/2.html">2</a>
         <script type="text/javascript">
             var socket = io();
-            var user = {userId:"1062"};
-            var chatapp = new ChatApp(user,socket,{});
+            var user = {userId:"83523"};
+            var chatapp = new ChatApp(user,socket,{level:10});
             $("body").append(chatapp.dom);
         </script>
     </body>

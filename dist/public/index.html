@@ -22,7 +22,7 @@
         <script type="text/javascript">
             var socket = io();
             var user = {userId:"10196"};
-            var chatapp = new ChatApp(user,socket,{});
+            var chatapp = new ChatApp(user,socket,{level:10});
             $("body").append(chatapp.dom);
         </script>
     </body>
